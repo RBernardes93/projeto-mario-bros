@@ -1,0 +1,93 @@
+<!-- PROJETO MARIO BROS HTML -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/site.webmanifest">
+    <title> Mario Brós </title>
+    <link rel="stylesheet" href="./style.CSS">
+
+</head>
+
+
+<body>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div> <!-- div criada para sumrir formulario -->
+
+
+    <div class="header">
+
+        <img src="./mario.png" class="mario">
+
+        <a href="./inicio.html"> Home </a>
+        <a href="./nossos-servicos.html"> Nossos Serviços </a> 
+        <a href="./fale conosco.html"> Fale Conosco </a>
+
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./super Mario.png " alt="logo  super mario" class="logo-super-mario">
+
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos
+                ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
+                vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+            <button  onclick="mostrarForm()" class="botao-contato" > Entre em contato </button>
+        </div>
+
+        <div>
+            <img src="./mario.png" alt="logo Mario e Luigi" class="logo-mario-luigi">
+
+
+        </div>
+
+        <div class="caixa-video">
+            <video src="./video super mario.mp4" autoplay controls muted loop>
+
+                <source src="./video super mario.mkv">
+                <source src="./video super mario.mov">
+                <source src="./video super mario.mp3">
+
+            </video>
+
+
+        </div>
+
+        <a href="https://wa.me/5585981465219?text=Ol%C3%A1+preciso+de+ajuda+dos+irm%C3%A3os+super+Mario."
+            class="link-whatssap">
+            <img src="./logo whatssap.png " alt="link do whatssap">
+        </a>
+
+        <form class="formulario" action="https://formcarry.com/s/3y7Hdb5gIud" method="POST"
+            enctype="multipart/form-data">
+
+            <input placeholder="Seu Nome" type="text" name="Nome">
+            <input placeholder="Seu Sobrenome" type="text" name="Sobrenome">
+            <input placeholder="Telefone" type="tel" name="Telefone">
+            <textarea name="Mensagem"> Digite seu problema aqui... </textarea>
+            <button class="botao-enviar" type="submit"> Enviar </button>
+        </form>
+
+
+
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>

@@ -1,0 +1,231 @@
+/*  PROJETO MARIO BROS CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.logo-super-mario {
+    height: 200px;
+}
+
+.botao-contato {
+    color: white;
+    background-color: #c51111;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.botao-contato:hover {
+    color: black;
+    background-color: #e9198e;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+.logo-mario-luigi {
+    height: 500px;
+   
+
+}
+
+body {
+    height: 100vh;
+    
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+
+}
+
+
+.video {
+    width: 100vw;
+    
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.link-whatssap img {
+    height: 60px;
+    border-radius: 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 3px;
+}
+
+.header img {
+    height: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.header a:hover {
+    color: #c51111;
+    font-family: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.formulario{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px ;
+    margin-left: 20px;
+    position: fixed;
+    left: -280px;
+    bottom: 140px;
+    
+    
+}
+
+input{
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline-color: chartreuse;
+}
+
+textarea{
+    height: 90px;
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 10px;
+    outline-color: chartreuse;
+}
+
+.mascara-formulario{
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%) ;
+   
+}
+
+.botao-enviar{
+   
+    border-radius: 10px;
+    height: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+} 
+
+
+
+
+@media (max-width: 900px) {
+    p{
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .caixa-principal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-mario-luig{
+        width: 80vw ;
+
+    }
+
+    .header{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header img{
+        display: none;
+    }
+
+    .header a{
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
